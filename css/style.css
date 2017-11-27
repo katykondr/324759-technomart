@@ -1147,34 +1147,11 @@ input[type="radio"].visually-hidden {
 	margin-bottom: 20px;
 }
 
-
-	
-.popular-brands-list {
-	list-style: none;
-	font-family: "PT Sans", sans-serif;
-	font-weight: 700;
-	text-align: center;
-}
-
-
-
-
-
-
-
 .popular-products-item:hover,
 .popular-products-item:focus {
 	box-shadow: 0 10px 25px rgba(41, 52, 73, 0.5);
 }
 
-.popular-brands-item:hover,
-.popular-brands-item:focus {
-	box-shadow: 0 10px 25px rgba(41, 52, 73, 0.5);
-}
-
-.popular-brands-item:active {
-	opacity: 0.5;
-}
 
 .popular-brands-line .popular-title {
 	width: 450px;
@@ -1185,10 +1162,6 @@ input[type="radio"].visually-hidden {
 }
 
 
-
-
-
-
 .popular-brands-list {
 	display: flex;
 	justify-content: space-between; 
@@ -1196,17 +1169,46 @@ input[type="radio"].visually-hidden {
 	background-color: #ffffff;
 	margin: 0;
 	padding: 0;
+	list-style: none;
+	text-align: center;
 }
 
-.popular-brands-list li {
+
+.popular-brands-item {
+	margin-bottom: 20px;
 	width: 220px;
 	height: 146px;
-	text-align: center;
-}	
+	
+}
 
 
+.popular-brands-item:hover,
+.popular-brands-item:focus {
+	box-shadow: 0 10px 25px rgba(41, 52, 73, 0.5);
+}
+
+.popular-brands-item:active {
+	opacity: 0.5;
+}
+
+.popular-brands {
+	margin-bottom: 65px;
+}
+
+
+.service-wrapper {
+	margin-bottom: 80px;
+	width: 100%;
+	background-color: #f4f8f9;
+	
+}
 
 .identical-title {
+	margin: 0;
+	padding: 0;
+
+	padding-top: 60px;
+	padding-bottom: 26px;
 	font-size: 30px;
 	line-height: 30px;
 	font-weight: 400;
@@ -1214,25 +1216,70 @@ input[type="radio"].visually-hidden {
 	color: #000000;
 }
 
+.service-wrapper .service-info {
+	padding: 0;
+	margin: 0;
+	padding-bottom: 68px;
+}
+	
 .service-info, 
 .service-description,
 .company-description,
 .company-description {
+	padding: 0;
+	margin: 0;
+	padding-left: 20px;
 	font-family: "PT Sans", sans-serif;
 	font-size: 13px;
 	line-height: 24px;	
 	color: #000000;
 }
 
+.service-description {
+	position: relative;
+	z-index: 1;
+	width: 275px;
+}
+
 .service-list {
+	margin: 0;
+	padding: 0;
+	margin-right: 60px;
+	margin-bottom: 102px; 
+	width: 240px;
 	list-style:none;
 }
 
+.service-list .vertical-line {
+	position: relative;
+}
+
+.vertical-line::after {
+	content: "";
+	position: absolute;
+	top: -45px;
+	left: 230px;
+	
+	width: 10px;
+	height: 279px;
+	
+	background-image: url("../img/vertical-line.png");
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}	
+
 .service-button {
+	padding:0;
+	margin: 0;
+	padding-left: 21px;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	width: 240px;
 	font-family: "Cuprum", sans-serif;
 	font-size: 21px;
 	line-height: 30px;
 	font-weight: 700;
+	text-align: left;
 	color: #ffffff;	
 	background-color: #32425c;
 	border: none;
@@ -1243,14 +1290,50 @@ input[type="radio"].visually-hidden {
 	background-color: #ffffff;
 }
 
+.service-list-items {
+	display: flex;
+}
+
 .service-title {
+	margin: 0;
+	padding: 0;
+	padding-left: 20px;
+	padding-bottom: 24px;
 	font-size: 36px;
 	line-height: 36px;
 	font-weight: 400;
 	text-transform: uppercase;
 	color: #32425c;	
+}
+
+
+.delivery .delivery-image {
+	position: relative;
+}
+
+.delivery-image::after {
+	content: "";
+	position: absolute;
+	top: 25px;
+	right: -346px;
+	
+	width: 467px;
+	height: 261px;
+	
+	background-image: url("../img/delivery.png");
+	background-repeat: no-repeat;
+	background-position: 0 0;
 	
 }
+
+.service-list-items .guarantee {
+	display: none;
+}
+
+.service-list-items .credit {
+	display: none;
+}
+
 
 .transport-company {
 	list-style: none;
@@ -1267,10 +1350,7 @@ input[type="radio"].visually-hidden {
 
 }
 	
-.transport-company-item:before {
-	content: "- ";
-		
-}	
+
 
 .main-footer {
 	font-size: 18px;
