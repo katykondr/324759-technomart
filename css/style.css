@@ -3,7 +3,7 @@ body {
 	margin: 0;
 	padding: 0;
 	
-	font-family: "Cuprum", sans-serif;
+	font-family: "Cuprum", Arial, sans-serif;
 	font-size: 16px;
 	line-height: 23px;
 	font-weight: 400;
@@ -14,7 +14,7 @@ body {
 
 html, 
 body {
-	min-width: 1200px;
+	min-width: 960px;
 	min-height: 2250px;
 }
 
@@ -32,7 +32,9 @@ input[type="radio"].visually-hidden {
 	margin: -1px;
 	border: 0;
 	padding: 0;
+
 	white-space: nowrap;
+
 	clip-path: inset(100%);
 	clip: rect(0 0 0 0);
 	overflow: hidden;
@@ -45,19 +47,16 @@ input[type="radio"].visually-hidden {
 }
 
 .user-navigation-wrapper {
-	margin-bottom: 30px;
+	margin-bottom: 46px;
 	
 	width: 100%;
-	
-	background-color: #293449;
-}
-
-.user-navigation-wrapper{
 	font-size: 17px;
 	line-height: 18px;
 	font-weight: 400;
 	color: #ffffff;
+	background-color: #293449;
 }
+
 
 .logo  a {
 	display: block;
@@ -69,7 +68,7 @@ input[type="radio"].visually-hidden {
 
 	width: 165px;
 
-	font-family: "Cuprum", sans-serif;
+	font-family: "Cuprum", Arial, sans-serif;
 	font-size: 24px;
 	line-height: 24px;
 	font-weight: 400;
@@ -100,10 +99,6 @@ input[type="radio"].visually-hidden {
 	justify-content: flex-start;
 }
 
-.user-navigation-wrapper {
-	margin-bottom: 46px;
-}
-
 .search .search-line {	
 	width: 270px;
 }
@@ -111,7 +106,7 @@ input[type="radio"].visually-hidden {
 .search  input[type="text"] {
 	padding-left: 48px;
 	
-	font-family: "Cuprum", sans-serif;
+	font-family: "Cuprum", Arial, sans-serif;
 	font-size: 17px;
 	line-height: 18px;
 	font-weight: 400;
@@ -169,8 +164,8 @@ input[type="radio"].visually-hidden {
 .basket a, 
 .place-order a {
 	display: block;
-	padding-top: 10px;
-	padding-bottom: 11px; 
+	padding-top: 11px;
+	padding-bottom: 10px; 
 	
 	color: #ffffff;
 	
@@ -220,7 +215,7 @@ input[type="radio"].visually-hidden {
 
 .basket .navigation-basket  {
 	position: relative;
-	padding-left: 45px;
+	padding-left: 49px;
 }
 	
 .navigation-basket::before {
@@ -255,9 +250,10 @@ input[type="radio"].visually-hidden {
 }
 
 .place-order {
+	box-sizing: border-box;
+	width: 150px;
 	padding-left: 20px;
-	padding-right: 20px;
-
+	padding-right: 21px;
 	background-color: #63a63e;
 }
 
@@ -560,7 +556,6 @@ input[type="radio"].visually-hidden {
 }
 
 .main-navigation {
-	margin-bottom: 60px;
 	font-size: 17px;
 	line-height: 17px;
 	font-weight: 400;
@@ -716,6 +711,8 @@ input[type="radio"].visually-hidden {
 
 .slider {
 	position: relative;
+	
+	background-color: #9d8c79;
 }
 
 .slider-controls {
@@ -804,12 +801,12 @@ input[type="radio"].visually-hidden {
 }
 
 .slider-item h3 {
+	max-width: 350px;
 	padding: 0;
 	margin: 0;
 	padding-top: 22px;
 	margin-left: 24px;
 	margin-bottom: 2px;
-
 	font-size: 36px;
 	line-height: 36px;
 	font-weight: 700;
@@ -817,14 +814,15 @@ input[type="radio"].visually-hidden {
 	text-transform: uppercase;
 }
 
-.slider p {
+.slider-item p {
+	max-width: 350px;
 	padding: 0;
 	margin: 0;
 
 	margin-left: 24px;
 	margin-bottom: 123px;
 	
-	font-family: "PT Sans", sans-serif;
+	font-family: "PT Sans", Arial, sans-serif;
 	font-size: 18px;
 	line-height: 24px;
 	font-weight: 400;
@@ -832,7 +830,7 @@ input[type="radio"].visually-hidden {
 }
 
 .slider-list:nth-child(2) {
-	font-family: "Cuprum", sans-serif;
+	font-family: "Cuprum", Arial, sans-serif;
 }
 
 .slider-item-button {
@@ -845,7 +843,7 @@ input[type="radio"].visually-hidden {
 	
 	width: 195px;
 		
-	font-family: "Cuprum", sans-serif;
+	font-family: "Cuprum", Arial, sans-serif;
 	font-size: 14px;
 	line-height: 18px;
 	font-weight: 400;
@@ -859,6 +857,8 @@ input[type="radio"].visually-hidden {
 	border: none;
 }
 
+
+
 .button:hover,
 .button:focus {
 	background-color: #ca2c37;
@@ -867,6 +867,9 @@ input[type="radio"].visually-hidden {
 .button:active {
 	background-color: #ba2732;
 }
+
+
+
 
 .promo-block-information {
 	display: flex;
@@ -1013,7 +1016,7 @@ input[type="radio"].visually-hidden {
 	margin-top: 25px;
 	margin-bottom: 26px;
 	
-	font-family: "Cuprum", sans-serif;
+	font-family: "Cuprum", Arial, sans-serif;
 	font-size: 14px;
 	line-height: 18px;
 	font-weight: 400;
@@ -1048,7 +1051,7 @@ input[type="radio"].visually-hidden {
 	margin: 0;
 	padding: 0;
 	
-	font-family: "PT Sans", sans-serif;
+	font-family: "PT Sans", Arial, sans-serif;
 }
 
 .popular-products-item {
@@ -1062,6 +1065,7 @@ input[type="radio"].visually-hidden {
 	font-weight: 700;
 	text-align: center;
 	background-color: #ffffff;
+	vertical-align: top;
 }
 
 .popular-products-item:last-child {
@@ -1107,7 +1111,7 @@ input[type="radio"].visually-hidden {
 	color: #ffffff;
 	font-size: 14px;
 	font-weight: normal;
-	font-family: "Cuprum", sans-serif;
+	font-family: "Cuprum", Arial, sans-serif;
 	line-height: 18px;
 	text-decoration: none;
 	text-transform: uppercase;
@@ -1131,6 +1135,8 @@ input[type="radio"].visually-hidden {
 .popular-products-item .actions .buy-btn:hover,
 .popular-products-item .actions .buy-btn:focus  {
 	background-color: #5fbb2d;
+	border-color: #5fbb2d;
+	border-bottom-color: #367315;
 }
 
 .popular-products-item .actions .buy-btn:active {
@@ -1212,7 +1218,7 @@ input[type="radio"].visually-hidden {
 .popular-products-item .price-discount {	
 	position: relative;
 	width: 80px;
-	margin: 10px auto;
+	margin: 9px auto;
 	margin-bottom: 20px;
 	padding: 10px 30px;
 	color: #ffffff;
@@ -1303,7 +1309,6 @@ input[type="radio"].visually-hidden {
 	
 .service-info, 
 .service-description,
-.company-description,
 .company-description {
 	padding: 0;
 	margin: 0;
@@ -1314,10 +1319,12 @@ input[type="radio"].visually-hidden {
 	color: #000000;
 }
 
+.service-info {
+	max-width: 400px;
+}
+
 .service-description {
 	position: relative;
-	z-index: 1;
-	width: 275px;
 }
 
 .service-list {
@@ -1347,6 +1354,18 @@ input[type="radio"].visually-hidden {
 	background-position: 0 0;
 }	
 
+.service-list-items  .delivery {
+	display: block;
+}
+
+.service-list-items  .guarantee {
+	display: none;
+}
+
+.service-list-items  .credit {
+	display: none;
+}
+
 .service-button {
 	padding:0;
 	margin: 0;
@@ -1362,18 +1381,27 @@ input[type="radio"].visually-hidden {
 	color: #ffffff;	
 	background-color: #32425c;
 	border: none;
+	box-shadow: 0 3px 15px rgba(0, 0, 0, 0.2);
 }
 
-.service-button-current {
+.service-button-active {
 	color: #32425c;	
 	background-color: #ffffff;
+	box-shadow: none;
+}
+
+.button-separator {
+	padding-top: 14px;
+	border-top: 2px solid rgba(244, 248, 249, 0.1);
 }
 
 .service-list-items {
 	display: flex;
 }
 
+
 .service-title {
+	max-width: 300px;
 	margin: 0;
 	padding: 0;
 	padding-left: 20px;
@@ -1386,6 +1414,10 @@ input[type="radio"].visually-hidden {
 }
 
 
+.delivery .service-description {
+	width: 275px;
+}
+
 .delivery .delivery-image {
 	position: relative;
 }
@@ -1393,8 +1425,8 @@ input[type="radio"].visually-hidden {
 .delivery-image::after {
 	content: "";
 	position: absolute;
-	top: 25px;
-	right: -346px;
+	top: 26px;
+	right: -344px;
 	
 	width: 467px;
 	height: 261px;
@@ -1405,12 +1437,86 @@ input[type="radio"].visually-hidden {
 	
 }
 
-.service-list-items .guarantee {
-	display: none;
+
+.guarantee .service-description {
+	width: 375px;
 }
 
-.service-list-items .credit {
-	display: none;
+
+.guarantee .guarantee-image {
+	position: relative;
+}
+
+.guarantee-image::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: -340px;
+	
+	width: 388px;
+	height: 283px;
+	
+	background-image: url("../img/guarantee.png");
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+
+
+.credit .service-description {
+	width: 280px;
+	margin-bottom: 28px;
+}
+
+.credit-button {	
+	position: relative;
+	z-index: 1;
+	width: 195px;
+	display: inline-block;
+	padding:0;
+	margin: 0;
+	padding-top: 11px;
+	padding-bottom: 9px;
+	margin-left: 20px;
+
+	font-family: "Cuprum", Arial, sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	font-weight: 400;
+	text-transform: uppercase;
+	text-align: center;
+	color: #ffffff;	
+	
+	border-radius: 3px; 
+	background-color: #ee3643;
+}
+
+.credit-button:hover,
+.credit-button:focus {
+	background-color: #ca2c37;
+
+}
+
+.credit-button:active {
+	background-color: #ba2732;
+}
+
+
+.credit .credit-image {
+	position: relative;
+}
+
+.credit-image::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: -350px;
+	
+	width: 465px;
+	height: 284px;
+	
+	background-image: url("../img/credit.png");
+	background-repeat: no-repeat;
+	background-position: 0 0;
 }
 
 
@@ -1442,7 +1548,7 @@ input[type="radio"].visually-hidden {
 .transport-company {
 	padding: 0;
 	margin: 0;
-	padding-left: 30px;
+	padding-left: 34px;
 	padding-top: 5px;
 	list-style: none;
 }
@@ -1458,6 +1564,25 @@ input[type="radio"].visually-hidden {
 	font-weight: 400;
 	color: #000000;
 }
+
+.transport-company-item .dash {
+	position: relative;
+}
+
+
+.dash::before {
+	content: "";
+	position: absolute;
+	
+	top: 10px;
+	left: -32px;
+	
+	width: 25px;
+	height: 2px;
+	
+	background-color: #ee3643;
+}
+
 
 .about-company a {
 	padding-left: 5px;
@@ -1503,10 +1628,11 @@ input[type="radio"].visually-hidden {
 	padding-top: 17px;
 	padding-bottom: 12px;
 	padding-left: 43px;
+	margin-right: 170px;
 
 	width: 177px;
 
-	font-family: "Cuprum", sans-serif;
+	font-family: "Cuprum", Arial, sans-serif;
 	font-size: 30px;
 	line-height: 30px;
 	font-weight: 400;
@@ -1528,7 +1654,7 @@ input[type="radio"].visually-hidden {
 .navigation-1-list {
 	display: flex;
 	justify-content: space-between;
-	width: 560px;
+	width: 550px;
 }
 
 
@@ -1567,6 +1693,7 @@ input[type="radio"].visually-hidden {
 	padding: 0;
 	margin: 0;
 	padding-left: 2px;
+	margin-right: 81px;
 	width: 330px;
 	font-size: 18px;
 	line-height: 24px;
@@ -1577,7 +1704,7 @@ input[type="radio"].visually-hidden {
 .navigation-2-list {
 	display: flex;
 	justify-content: space-between;
-	width: 540px;
+	width: 530px;
 }
 
 .navigation-2-list a {
@@ -1599,8 +1726,7 @@ input[type="radio"].visually-hidden {
 }	
 
 .main-footer-wrapper .container {
-	margin-top: 48px;
-	margin-bottom: 34px;
+	margin-bottom: 48px;
 }
 
 .footer-additional-wrapper {
@@ -1744,28 +1870,9 @@ input[type="radio"].visually-hidden {
 	color: #ee3643;
 }	
 
-.modal {
-	color: #000000;
-	background-color: #ffffff;
-}
-
-.write-us  input[type="text"],
-.write-us  input[type="email"]  {
-	font-size: 18px;
-	line-height: 18px;
-	font-weight: 400;
-	color: #000000;
-	
-	background-color: #ffffff;
-	border: 2px solid #dee3e4;
-}
-
-.write-us  input:focus {
-	border-color: #ee3643;
-}
 
 .inner-page {
-	font-family: "PT Sans", sans-serif;
+	font-family: "PT Sans", Arial, sans-serif;
 }
 
 .user-block-index {
@@ -1870,7 +1977,7 @@ input[type="radio"].visually-hidden {
 	padding-top: 28px;
 	padding-bottom: 28px;
 	margin-bottom: 23px;
-	font-family: "Cuprum", sans-serif;
+	font-family: "Cuprum", Arial, sans-serif;
 	font-size: 30px;
 	line-height: 30px;	
 	font-weight: 400;
@@ -1882,7 +1989,7 @@ input[type="radio"].visually-hidden {
 .main-content {
 	display: flex;
 	justify-content: flex-start;
-	margin-bottom: 60px;
+	margin-bottom: 62px;
 }
 
 .filters {
@@ -1895,8 +2002,10 @@ input[type="radio"].visually-hidden {
 
 .catalog {
 	width: 700px;
+	margin-bottom: 35px;
 }
 
+	
 .filters-title, 
 .sorting-title {
 	
@@ -1915,9 +2024,34 @@ input[type="radio"].visually-hidden {
 	padding-left: 18px;
 	padding-top: 8px;
 	padding-bottom: 10px;
-	border-radius: 3px;
+	border-radius: 5px;
 	margin-bottom: 11px;
 }
+
+
+.filter-item {
+	margin: 0;
+	padding: 0;
+	
+	border: none;
+
+	width: 220px;
+}
+
+.range-filter {
+	width: 220px;
+}
+
+
+.filter-item legend {
+	font-size: 17px;
+	line-height: 30px;	
+	font-weight: 700;
+	margin-bottom: 15px;
+}
+	
+	
+
 
 .filter-range {
 	width: 220px;
@@ -1928,35 +2062,26 @@ input[type="radio"].visually-hidden {
 	
 }
 
-.filter-range-title {
-	font-size: 17px;
-	line-height: 30px;	
-	font-weight: 700;
-	margin-bottom: 15px;
-}
+
 
 .range-controls {
 	position: relative;
-	width: 180px;
-	margin-bottom: 9px;
+	height: 41px;
+	
+	background-color: #f7f3ec;	
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	margin-bottom: 9px;	
 	padding-top: 39px;
-	padding-bottom: 39px;
 	padding-left: 20px;
 	padding-right: 20px;
-	
-	background-color: #f7f3ec;
-	border-radius: 3px;
-
 }
 
-.range-controls .scale {
 
-	margin: 0 auto;
-	
-	width: 180px;
+
+.range-controls .scale {
 	height: 2px;
-	
-	background-color: #f7f3ec;
+	background-color: #d7dcde;
 }
 
 .range-controls .bar {
@@ -1966,35 +2091,33 @@ input[type="radio"].visually-hidden {
 	background-color: #3fb77a;
 }
 
-.range-toggle {
+.range-controls .range-toggle {
 	position: absolute;
 	
 	top: 30px;
-	left: 19px;
+	left: 0;
 	
 	width: 4px;
 	height: 4px;
-	
-	background: #c1c1c1;
+	padding: 0;
 	border: 8px solid #ffffff;
+	background: #c1c1c1;
 	border-radius: 50%;
-	box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2);
+	box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2);	
 	cursor: pointer;
 }
-
-.range-toggle-min {
+	
+.range-controls .range-toggle-min {
 	left: 19px;
 }
 
-.range-toggle-max {
-	left: 80%;
+.range-controls .range-toggle-max {
+	left: 160px;
 }
 
 .price-controls {
 	position: relative;
 	height: 38px;
-	margin-bottom: 42px;
-
 	font-size: 0;	
 }
 
@@ -2004,36 +2127,25 @@ input[type="radio"].visually-hidden {
 	line-height: 18px;
 	text-transform: uppercase;
 	color: #000000;
-	vertical-align: top;
-
-	cursor: pointer;
 }	
 
-.price-controls .min-price
-.price-controls .max-price {
-	width: 95px;
-
-}
 
 .price-controls input {
-  width: 95px;
-  margin: 0;
-  padding-top: 10px;
-  padding-bottom: 11px;
-
+  width: 75px;
+  padding: 10px 10px;
+ 
   color: inherit;
   font: inherit;
   text-align: center;
   
-
-  background: none;
+  background: #f7f3ec;
   border: none;
   background-color: #f7f3ec;
-  border-radius: 3px;
+  border-radius: 5px;
 }
 
 .price-controls .min-price {
-	margin-right: 25px;
+	margin-right: 30px;
 }
 
 .price-controls span {
@@ -2042,6 +2154,28 @@ input[type="radio"].visually-hidden {
 	left: 104px;
 	font-size: 16px;
 	line-height: 18px;
+}
+
+.filter {
+	position: relative;
+}
+
+.separator-brands {
+	position: absolute; 
+	top: 198px;
+	left: 0;
+	width: 220px;
+	height: 1px;
+	background: #f7f3ec;
+}
+
+.separator-power-supply {
+	position: absolute; 
+	top: 460px;
+	left: 0;
+	width: 220px;
+	height: 1px;
+	background: #f7f3ec;
 }
 
 .filter fieldset {
@@ -2214,7 +2348,7 @@ input[type="radio"].visually-hidden {
 	padding-left: 18px;
 	padding-top: 8px;
 	padding-bottom: 10px;
-	border-radius: 3px;
+	border-radius: 5px;
 }
 
 .sorting-list {
@@ -2336,6 +2470,8 @@ input[type="radio"].visually-hidden {
 }
 
 .catalog-item {
+	padding: 0;
+	margin: 0;
     position: relative;
     display: inline-block;
     width: 218px;
@@ -2345,6 +2481,7 @@ input[type="radio"].visually-hidden {
     line-height: 20px;
     font-weight: bold;
     text-align: center;
+	vertical-align: top;
 }
 
 .catalog-item:nth-child(3n){
@@ -2396,7 +2533,7 @@ input[type="radio"].visually-hidden {
     display: block;
     width:	129px;
     margin:	0 auto;
-    margin-bottom:	7px;
+    margin-bottom: 7px;
     padding: 7px 0;
     border: 3px solid #63a63e;
     border-bottom-color: #367315; 
@@ -2404,7 +2541,7 @@ input[type="radio"].visually-hidden {
 	color: #ffffff;
     font-size: 14px;
     font-weight: normal;
-    font-family: "Cuprum", sans-serif;
+	font-family: "Cuprum", Arial, sans-serif;
     line-height: 18px;
     text-decoration: none;
     text-transform: uppercase;    
@@ -2426,7 +2563,7 @@ input[type="radio"].visually-hidden {
 
 .catalog-item .image {
     width: 218px;
-    height: 165px;
+    height: 168px;
 }
 .catalog-item .image img {
     max-width: 100%;
@@ -2439,13 +2576,13 @@ input[type="radio"].visually-hidden {
     min-height: 40px;
     padding: 0 25px;
     margin-top: 10px;
-    margin-bottom: 15px;    
+    margin-bottom: 10px;    
 }
 
 .catalog-item .price-base{
     min-height: 20px;
-    margin-top: 15px;
-    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 8px;
     color: #a9a9a9;
     text-decoration:line-through;
 }
@@ -2453,9 +2590,9 @@ input[type="radio"].visually-hidden {
 .catalog-item .price-discount{
     position: relative;
     width: 80px;
-    margin: 10px auto;
+    margin: 8px auto;
     margin-bottom: 20px;
-    padding: 10px 30px;
+    padding: 9px 30px;
     color: #ffffff;
     background: #ee3643;
     border-radius: 3px;
@@ -2475,6 +2612,8 @@ input[type="radio"].visually-hidden {
 .catalog-item .actions .buy-btn:hover,
 .catalog-item  .actions .buy-btn:focus  {
 	background-color: #5fbb2d;
+	border-color: #5fbb2d;
+	border-bottom-color: #367315;
 }
 
 .catalog-item  .actions .buy-btn:active {
@@ -2518,21 +2657,23 @@ input[type="radio"].visually-hidden {
 	padding: 0;
 	margin: 0;
 	list-style: none;
+
 }
 
 .pagination-item {
+	margin: 0;
 	margin-right: 10px;
 }
 
 .pagination-item:last-child {
-  margin-right: 0;
+	margin-right: 0;
 }
 
 .pagination-item a {
 	display: block;
 	width: 38px;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-top: 9px;
+	padding-bottom: 9px;
 	font-size: 13px;
 	line-height: 18px;	
 	font-weight: 400;
@@ -2559,8 +2700,9 @@ input[type="radio"].visually-hidden {
 
 .pagination-item-current a {
 	color: #ffffff;
-	border: 1px solid #d7dcde;
+	border: 1px solid #ee3643;
 	background-color: #ee3643;
+	border-radius: 3px;
 }
 
 
@@ -2574,19 +2716,21 @@ input[type="radio"].visually-hidden {
 }
 
 .about-perforators-wrapper {
-	margin:0;
+	margin: 0;
+	padding: 0;
 	width: 100%;
 	margin: 0 auto;
 	color: #000000;
-	background-color: #f1f1f1;
+	background-color: #f2f6f8;
+	padding-bottom: 67px;
 }	
 
 .about-perforators h2 {
 	padding: 0;
 	margin: 0;
 	margin-bottom: 28px;
-	padding-top: 60px;
-	font-family: "Cuprum", sans-serif;
+	padding-top: 64px;
+	font-family: "Cuprum", Arial, sans-serif;
 	font-size: 30px;
 	line-height: 30px;	
 	font-weight: 400;
@@ -2596,15 +2740,177 @@ input[type="radio"].visually-hidden {
 .about-perforators p {
 	padding: 0;
 	margin: 0;
-	padding-bottom: 68px;
 	font-size: 13px;
 	line-height: 24px;	
 	font-weight: 400;
 }
-	
+
+
 .modal {
-	display: none;
+	position: fixed;
+	color: #000000;
+	background-color: #ffffff;
+	box-shadow: 0 20px 40px rgba(0, 0, 0, 0.7);
+	border-top: 7px solid #ee3643;
+	z-index: 100;
 }	
+
+.modal-write-us {
+	display: none;
+	bottom: 200px;
+	left: 50%;
+	margin-left: -310px;
+	padding-top: 37px;
+	width: 620px;
+    box-sizing: border-box;
+}
+
+
+
+.modal-close {
+	position: absolute;
+	top: 7px;
+	right: 20px;
+	
+	width: 21px;
+	height: 21px;
+	
+	font-size: 0;
+	border: 0;
+	cursor: pointer;
+	background-color: #ffffff;
+}
+
+
+.modal-close::before,
+.modal-close::after {
+	content: "";
+	position: absolute;
+	top: 10px;
+	left: 6px;
+	width: 28px; 
+	height: 5px;
+	background-color: #ee3643;
+	border-radius: 3px;
+}
+
+.modal-close::before {
+	transform: rotate(45deg);
+}
+
+.modal-close::after {
+	transform: rotate(-45deg);
+}
+
+.write-us-form {
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-wrap: wrap;
+	width: 620px;
+}
+
+
+.write-us-fields {
+	display: flex;
+	flex-wrap: wrap;
+	width: 460px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+	
+}
+
+.write-us-form input[type="text"],
+.write-us-form input[type="email"] {
+	width: 220px;
+	padding: 0;
+	margin: 0;
+}
+
+.write-us-form input[type="text"] {
+	margin-right: 20px;
+}
+
+
+.write-us-form input[type="text"],
+.write-us-form input[type="email"],
+.write-us-text {
+	box-sizing: border-box;
+	padding: 12px 15px;
+
+	font-family: "PT Sans", Arial, sans-serif;
+	font-size: 13px;
+	line-height: 18px;
+	font-weight: 400;
+	color: #a9a9a9;
+	background-color: #ffffff;
+	border: 2px solid #dee3e4;
+}
+
+.write-us-form input:focus {
+	border-color: #bdc6ca;
+}
+
+.user-date {
+	display: flex;
+	justify-content: space-between;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 14px;
+	width: 460px;
+}
+
+.user-date label,
+.write-us-fields p {
+	display: block;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 8px;
+	font-family: "Cuprum", Arial, sans-serif;
+	font-size: 18px;
+	line-height: 18px;
+	font-weight: 400;
+	color: #000000;
+}
+	
+
+
+.write-us-text {
+	width: 460px;
+	height: 114px;
+	margin-top: 8px;
+}
+
+
+.button-wrapper {
+	width: 100%;
+	background-color: #f4f4f4;
+	margin-bottom: 0;
+}
+	
+.button-wrapper .red-button {
+	border: none;
+	width: 460px;
+	margin: 37px 80px;
+}
+
+.modal-map {
+	display: none;
+	top: 50%;
+	left: 50%;
+	
+	width: 940px;
+	height: 448px;
+	margin-left: -470px;
+	margin-top: -224px;
+	
+	box-shadow: 0 0 16px rgba(47, 42, 43, 0.5);
+}
+
+.modal-map p {
+	margin: 0;
+}
+
 .modal-basket p {
 	font-size: 30px;
 	line-height: 30px;	
@@ -2612,7 +2918,7 @@ input[type="radio"].visually-hidden {
 }
 
 .white-button {
-	font-family: "Cuprum", sans-serif;
+	font-family: "Cuprum", Arial, sans-serif;
 	font-size: 14px;
 	line-height: 18px;
 	font-weight: 400;

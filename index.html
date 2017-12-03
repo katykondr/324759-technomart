@@ -3,9 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Техномарт</title>
-		<link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i,700&amp;subset=cyrillic" rel="stylesheet"> 
-		<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet"> 
-		<link href="css/normalize.css" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i,700|PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet"> <link href="css/normalize.css" rel="stylesheet">
 		<link href="css/style.css" rel="stylesheet">	
 	</head>
 	<body>
@@ -17,7 +15,6 @@
 							<h1 class="visually-hidden">Техномарт</h1>
 							<a class="logo-header">Техномарт</a>
 						</div>	
-						<h1 class="visually-hidden">Техномарт</h1>
 						<form class="search">
 							<span class="icon-search"></span>
 							<label class="serch-line"><input type="text" placeholder="Поиск:"></label>
@@ -230,18 +227,18 @@
 			<div class="service-wrapper">
 				<div class="container">
 					<h2 class="identical-title">Сервисы</h2>
-					<p class="service-info">Хороший интернет-магазин отличается от плохого не только ценами!<br>
+					<p class="service-info">Хороший интернет-магазин отличается от плохого не только ценами!
 					Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
 					<div class="service-list-items">
 						<ul class="service-list">
-							<li>
-								<button class="service-button service-button-current vertical-line" type="button">Доставка</button>
+							<li class="service-item">
+								<button class="service-button service-button-active vertical-line" type="button">Доставка</button>
 							</li>
-							<li>
-								<button class="service-button" type="button">Гарантия</button>
+							<li class="service-item">
+								<button class="service-button button-separator" type="button">Гарантия</button>
 							</li>
-							<li>
-								<button class="service-button" type="button">Кредит</button>
+							<li class="service-item">
+								<button class="service-button button-separator" type="button">Кредит</button>
 							</li>
 						</ul>
 						<section class="delivery">
@@ -252,17 +249,18 @@
 							поднимая его на ваш этаж!</p>
 						</section>
 						<section class="guarantee">
-							<h3 class="service-title">Гарантия</h3>
-							<p class="service-description">Если купленный у нас товар поломается или заискрит, 
+							<h3 class="service-title guarantee-image">Гарантия</h3>
+							<p class="service-description">Если купленный у нас товар поломается или заискрит,<br> 
 							а также в случае пожара, спровоцированного его возгаранием,  
 							вы всегда можете быть уверены в нашей гарантии. Мы обменяем 
-							сгоревший товар на новый. 
+							сгоревший товар на новый.<br> 
 							Дом уж восстановите как-нибудь сами.</p>
 						</section>
 						<section class="credit">
-							<h3 class="service-title">Кредит</h3>
+							<h3 class="service-title credit-image">Кредит</h3>
 							<p class="service-description">Залезть в долговую яму стало проще! 
 							Кредитные консультанты придут вам на помощь.</p>
+							<a class="credit-button" href="#">Отправить заявку</a>
 						</section>
 					</div>
 				</div>
@@ -276,13 +274,13 @@
 						Техномарт работает со многими транспортными компаниями:</p>
 					<ul class="transport-company">
 						<li class="transport-company-item">
-							<p>Деловые линии</p>
+							<p class="dash">Деловые линии</p>
 						</li>
 						<li class="transport-company-item">
-							<p>Автотрейдинг</p>
+							<p class="dash">Автотрейдинг</p>
 						</li>
 						<li class="transport-company-item">
-							<p>ЖелДорЭкспедиция</p>
+							<p class="dash">ЖелДорЭкспедиция</p>
 						</li>
 					</ul>
 					<a class="red-button" href="#">Подробнее о компании</a>
@@ -345,29 +343,36 @@
 				</div>
 			</div>
 		</footer>
+
 		<section class="modal modal-write-us">
 			<h2 class="visually-hidden">Обратная связь</h2>
-			<form class="write-us" action="https://echo.htmlacademy.ru" method="post">
-				<p>	
-					<label for="user-name">Ваше имя:</label>
-					<input class="write-us-user" id="user-name" type="text" name="user" placeholder="Представьтесь, пожалуйста">
-				</p>
-				<p>
-					<label for="user-mail">Ваш e-mail:</label>
-					<input class="write-us-mail" id="user-mail" type="email" name="mail" placeholder="Для отправки ответа">
-				</p>	
-				<p>
-					<label for="user-text">Текст письма:</label><br>
-					<textarea class="write-us-text" id="user-text" name="text-letter" rows="8" placeholder="В свободной форме"></textarea>
-				</p>	
-				<button class="red-button" type="submit">Отправить</button>
+			<form class="write-us-form" action="https://echo.htmlacademy.ru" method="post">
+				<div class="write-us-fields">
+					<div class="user-date">
+						<p>	
+							<label for="user-name">Ваше имя:</label>
+							<input class="write-us-user" id="user-name" type="text" name="user" placeholder="Представьтесь, пожалуйста">
+						</p>
+						<p>
+							<label for="user-mail">Ваш e-mail:</label>
+							<input class="write-us-mail" id="user-mail" type="email" name="mail" placeholder="Для отправки ответа">
+						</p>	
+					</div>
+					<p class="user-comments">
+						<label for="user-text">Текст письма:</label><br>
+						<textarea class="write-us-text" id="user-text" name="text-letter" rows="8" placeholder="В свободной форме"></textarea>
+					</p>
+				</div>	
+				<div class="button-wrapper">
+					<button class="red-button" type="submit">Отправить</button>
+				</div>
 			</form>
 			<button class="modal-close" type="button">Закрыть</button>
 		</section>
 		<section class="modal modal-map">
-			<h2 class="visually-hiden">Как до нас добраться</h2>
+			<h2 class="visually-hidden">Как до нас добраться</h2>
 			<p>
-				<img src="img/map.jpg" width="300" height="158" alt="Офис интернет-магазина находится по адресу г. Санкт-Петербург, ул. Б.Конюшенная, д. 19/8">
+				<img src="img/map.jpg" width="940" height="447" alt="Офис интернет-магазина находится по адресу г. Санкт-Петербург, ул. Б.Конюшенная, д. 19/8">
 			</p>
 			<button class="modal-close" type="button">Закрыть карту</button>
 		</section>
