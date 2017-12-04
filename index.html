@@ -3,8 +3,9 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Техномарт</title>
-		<link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i,700|PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet"> <link href="css/normalize.css" rel="stylesheet">
-		<link href="css/style.css" rel="stylesheet">	
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cuprum:400,400i,700|PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet"> <link href="css/normalize.css">
+		<link rel="stylesheet" href="css/normalize.css">		
+		<link rel="stylesheet" href="css/style.css">
 	</head>
 	<body>
 		<header class="main-header">
@@ -52,13 +53,13 @@
 								<a href="registration.html">Регистрация</a>
 							</li>
 						</ul>
-						<div class="personal-account">
+						<div class="personal-account personal-account-catalog">
 							<div class="user-name">
 								<a class="icon-user" href="#">Равшан Джамшутович</a>
 							</div>
 							<ul class="user-information">
-								<li><a class="user-information-btn">Мои заказы</a></li>
-								<li><a class="user-information-btn">Личный кабинет</a></li>
+								<li><a class="user-information-btn" href="#">Мои заказы</a></li>
+								<li><a class="user-information-btn" href="#">Личный кабинет</a></li>
 							</ul>
 						</div>
 					</div>
@@ -102,7 +103,7 @@
 								<i class="active"></i>
 								<i></i>
 							</div>
-							<div class="visually-hidden">
+							<div class="slider-arrows">
 								<button class="button-arrow button-arrow-back" type="button"></button>
 								<button class="button-arrow button-arrow-next" type="button"></button>
 							</div>
@@ -134,7 +135,7 @@
 				<section class="popular-products">
 					<div class="popular-products-line">
 						<h2 class="popular-title">Популярные товары:</h2>
-						<a class="red-button" href="#">Все популярные товары</a>
+						<a class="red-button" href="catalog.html">Все популярные товары</a>
 					</div>
 					<div class="popular-products-list">
 						<div class="popular-products-item">

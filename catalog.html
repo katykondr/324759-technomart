@@ -3,8 +3,9 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Техномарт</title>
-		<link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i,700|PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet"> <link href="css/normalize.css" rel="stylesheet">
-		<link href="css/style.css" rel="stylesheet">	
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cuprum:400,400i,700|PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet"> <link href="css/normalize.css">
+		<link rel="stylesheet" href="css/normalize.css">		
+		<link rel="stylesheet" href="css/style.css">	
 	</head>
 	<body>
 		<header class="main-header">
@@ -57,8 +58,8 @@
 								<a class="icon-user" href="#">Равшан Джамшутович</a>
 							</div>
 							<ul class="user-information">
-								<li><a class="user-information-btn">Мои заказы</a></li>
-								<li><a class="user-information-btn">Личный кабинет</a></li>
+								<li><a class="user-information-btn" href="#">Мои заказы</a></li>
+								<li><a class="user-information-btn" href="#">Личный кабинет</a></li>
 							</ul>
 						</div>
 					</div>
@@ -162,8 +163,20 @@
 									</ul>
 								</div>
 								<div class="ascending-descending">
-									<a class="ascending-present" href="#">По возрастанию</a>
-									<a class="descending" href="#">По убыванию</a>
+									<a class="ascending ascending-curent" href="#">
+										<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+											width="11px" height="10px" viewBox="0 0 11 10" enable-background="new 0 0 11 10" xml:space="preserve">
+											<polygon points="5.5,0 0,10 11,10 "/>
+										</svg>
+									По возрастанию
+									</a>
+									<a class="descending" href="#">
+										<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+										width="11px" height="10px" viewBox="0 0 11 10" enable-background="new 0 0 11 10" xml:space="preserve">
+										<polyline points="5.5,10 0,0 11,0 "/>
+										</svg>
+									По убыванию
+									</a>
 								</div>
 							</div>	
 							<div class="catalog-list">

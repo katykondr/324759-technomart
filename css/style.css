@@ -208,8 +208,6 @@ input[type="radio"].visually-hidden {
 	opacity: 1;
 }
 
-
-	background-color: #212a3a;
 .navigation-bookmark:focus::before {
 	opacity: 1;
 }
@@ -430,7 +428,7 @@ input[type="radio"].visually-hidden {
 	color: rgba(0, 0, 0, 0.3);
 }
 
-.personal-account {
+.personal-account-catalog {
 	display: none;
 	flex-wrap: wrap;
 	
@@ -884,6 +882,35 @@ input[type="radio"].visually-hidden {
 
 .button:active {
 	background-color: #ba2732;
+}
+
+.button-arrow {
+	position: absolute;
+	border: none;
+	width: 22px;
+	height: 40px;
+	
+}
+
+.button-arrow-back {
+	left: 26px;
+	top: 115px;
+
+	background-color: transparent;
+	background-image: url("../img/icon-left.svg");
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+
+
+.button-arrow-next {
+	right: 21px;
+	top: 115px;
+
+	background-color: transparent;
+	background-image: url("../img/icon-right.svg");
+	background-repeat: no-repeat;
+	background-position: 0 0;
 }
 
 .promo-block-information {
@@ -2400,55 +2427,52 @@ input[type="radio"].visually-hidden {
 
 
 .ascending-descending {
+	position: relative;
 	width: 70px;
 }
 
+
+.ascending,
+.descending,
 .ascending-present {
-	display: inline-block;
-	margin-left: 10px;
-	margin-right: 10px;
-	margin-top:14px;
-	margin-bottom: 14px;
-	width: 11px;
-	height: 10px;
 	font-size: 0;
-	text-decoration: none;
-	background: #f7f3ec url("../img/icon-up-dir-active.svg") no-repeat center;
-	background-position: 0 0;
-}
-  
-.ascending:hover {
-	background: #f7f3ec url("../img/icon-up-dir-red.svg") no-repeat center;
-	background-position: 0 0;
 }
 
-.ascending:active {
-	background: #f7f3ec url("../img/icon-up-dir-red.svg") no-repeat center;
-	background-position: 0 0;
+.ascending-curent {
+	position: absolute;
+	left: 11px;
+	top: 12px;
+	width: 11px;
+	height: 10px;
+	fill: #c5c5c5;
+}
+
+.ascending-curent {
+	position: absolute;
+	left: 11px;
+	top: 12px;
+	width: 11px;
+	height: 10px;
+	fill: #ee3643;
 }
 
 .descending {
-	display: inline-block;
-	margin-left: 10px;
-	margin-right: 10px;
-	margin-top:14px;
-	margin-bottom: 14px;
+	position: absolute;
+	left: 43px;
+	top: 12px;
 	width: 11px;
 	height: 10px;
-	font-size: 0;
-	text-decoration: none;
-	background: #f7f3ec url("../img/icon-down-dir.svg") no-repeat center;
-	background-position: 0 0;
- }
-  
-.descending:hover{
-	background: #f7f3ec url("../img/icon-down-dir-hover.svg") no-repeat center;
-	background-position: 0 0;
+	fill: #c5c5c5;
 }
 
-.descending:active{
-	background: #f7f3ec url("../img/icon-down-dir-active.svg") no-repeat center;
-	background-position: 0 0;
+.ascending:hover,
+.descending:hover {
+	fill: #000000;
+}
+
+.ascending:active,
+.descending:active {
+	fill: #ee3643;
 }
 
 .catalog-list {
@@ -2708,7 +2732,7 @@ input[type="radio"].visually-hidden {
 	margin: 0 auto;
 	color: #000000;
 	background-color: #f2f6f8;
-	padding-bottom: 67px;
+	padding-bottom: 69px;
 }	
 
 .about-perforators h2 {
