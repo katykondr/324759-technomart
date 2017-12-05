@@ -1780,7 +1780,7 @@ input[type="radio"].visually-hidden {
 	margin: 0;
 	padding-bottom: 34px;
 
-	width: 232px;
+	width: 250px;
 	font-size: 16px;
 	line-height: 18px;
 	font-weight: 400;
@@ -1789,7 +1789,7 @@ input[type="radio"].visually-hidden {
 
 .footer-social {
 	margin-right: 95px;
-	margin-left: 170px;
+	margin-left: 160px;
 	text-align: center;
 	width: 130px;
 }
@@ -2767,18 +2767,18 @@ input[type="radio"].visually-hidden {
 
 .modal-write-us {
 	display: none;
-	bottom: 200px;
+	bottom: 100px;
 	left: 50%;
 	margin-left: -310px;
 	padding-top: 37px;
-	width: 620px;
+	max-width: 620px;
     box-sizing: border-box;
 }
 
 .modal-close {
 	position: absolute;
-	top: 7px;
-	right: 20px;
+	top: 17px;
+	right: 14px;
 	
 	width: 21px;
 	height: 21px;
@@ -2786,7 +2786,7 @@ input[type="radio"].visually-hidden {
 	font-size: 0;
 	border: 0;
 	cursor: pointer;
-	background-color: #ffffff;
+	background-color: transparent;
 }
 
 
@@ -2794,8 +2794,8 @@ input[type="radio"].visually-hidden {
 .modal-close::after {
 	content: "";
 	position: absolute;
-	top: 10px;
-	left: 6px;
+	top: 0px;
+	left: 0px;
 	width: 28px; 
 	height: 5px;
 	background-color: #ee3643;
@@ -2904,7 +2904,7 @@ input[type="radio"].visually-hidden {
 	top: 50%;
 	left: 50%;
 	
-	width: 940px;
+	max-width: 940px;
 	height: 448px;
 	margin-left: -470px;
 	margin-top: -224px;
@@ -2918,8 +2918,7 @@ input[type="radio"].visually-hidden {
 
 .modal-basket{
 	display: none;
-	position: absolute;
-	top: 500px;
+	top: 200px;
 	margin-left: -310px;
 	left: 50%;
 	width: 620px;
