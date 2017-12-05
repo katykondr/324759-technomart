@@ -1849,9 +1849,9 @@ input[type="radio"].visually-hidden {
 }
 
 .footer-feedback {
-	width: 140px;
+	width: 130px;
 	padding-right: 0;
-	padding-left: 20px;
+	padding-left: 30px;
 }
 
 .footer-feedback a {
@@ -1874,10 +1874,9 @@ input[type="radio"].visually-hidden {
 .footer-developer {
 	margin-right: 0;
 	padding-right: 0;
-	padding-left: 45px;
+	padding-left: 60px;
 	
-	width: 115px;
-	
+	width: 100px;
 }
 
 .footer-developer a {
